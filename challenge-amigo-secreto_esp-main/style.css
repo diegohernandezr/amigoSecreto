@@ -87,10 +87,20 @@ body {
     font-size: 16px;
 }
 
+.padre{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
 .button-container {
     width: 300px;
-    justify-content: center;
+    display: flex;
+    justify-content: space-evenly; /* Esto asegura que los botones se distribuyan de manera uniforme */
+    align-items: center; /* Esto alinea los botones verticalmente al centro si son de diferente altura */
 }
+
 
 /* Estilos de entrada de texto */
 .input-title {
